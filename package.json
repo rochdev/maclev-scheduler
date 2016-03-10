@@ -1,0 +1,23 @@
+{
+  "name": "maclev-scheduler",
+  "version": "1.0.0",
+  "description": "Job scheduler for maclev.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochdev/maclev-scheduler.git"
+  },
+  "author": "Roch Devost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rochdev/maclev-scheduler/issues"
+  },
+  "homepage": "https://github.com/rochdev/maclev-scheduler#readme",
+  "dependencies": {
+    "kue": "^0.10.5",
+    "node-schedule": "^1.1.0"
+  }
+}
