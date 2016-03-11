@@ -9,7 +9,7 @@ var queue = kue.createQueue({
   }
 });
 
-createJob() && schedule.scheduleJob('00 02 * * *', createJob);
+schedule.scheduleJob('00 05 * * *', createJob);
 
 function createJob() {
   queue.create('refresh cache', {title: 'brew formulas', key: 'brew-formulas'}).save();
