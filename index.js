@@ -17,6 +17,7 @@ function createJob() {
   queue.create('refresh cache', {title: 'node modules', key: 'node-modules'}).save();
   queue.create('refresh cache', {title: 'node versions', key: 'node-versions'}).save();
   queue.create('refresh cache', {title: 'ruby versions', key: 'ruby-versions'}).save();
+  queue.create('refresh cache', {title: 'ruby gems', key: 'ruby-gems'}).save();
   queue.create('refresh cache', {title: 'python versions', key: 'python-versions'}).save();
   queue.create('refresh cache', {title: 'python packages', key: 'python-packages'}).save();
 }
