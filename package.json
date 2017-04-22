@@ -18,7 +18,7 @@
   "homepage": "https://github.com/rochdev/maclev-scheduler#readme",
   "private": true,
   "dependencies": {
-    "kue": "^0.10.5",
+    "kue": "^0.11.5",
     "node-schedule": "^1.1.0"
   }
 }
